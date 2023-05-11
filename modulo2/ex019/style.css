@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+     Tudo em HTML que é id, em CSS é # (so pode 1 elemento, por mais que funcione, ele ficará de forma errada caso use o mesmo id em outros lugares. (obs: pode se usar em outras paginas, mas n pode se usar 2 veses em 1 página))
+     Tudo de HTML que e class, em CSS e . (usa-se de forma livre, possivel usar em vários lugares) 
+*/
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color: rgb(51, 77, 49);
+}
+
+.basico{
+    color: rgb(36, 156, 36);
+}
+
+.intermediario{
+    color: rgb(201, 201, 9);
+}
+
+.avançado{
+    color: rgb(179, 4, 4);
+}
+
+.destaque{
+    background-color: rgba(175, 175, 71, 0.507);
+}
